@@ -1,0 +1,6 @@
+module Pods_Jest01 {
+  umbrella header "Pods-Jest01-umbrella.h"
+
+  export *
+  module * { export * }
+}
