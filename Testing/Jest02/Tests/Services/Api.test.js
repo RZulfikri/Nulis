@@ -37,6 +37,6 @@ describe('Test Api services', () => {
     expect(response.data).not.toBeNull()
     expect(response.data).toHaveProperty('total_count', expect.any(Number))
     expect(response.data).toHaveProperty('incomplete_results', expect.any(Boolean))
-    expect(response.data).toHaveProperty('item', expect.arrayContaining([expect.anything()]))
+    expect(response.data).toHaveProperty('items', expect.arrayContaining([expect.anything()]))
   });
 });
